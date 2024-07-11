@@ -17,7 +17,7 @@ function App() {
   
 
   return (
-    <div className='max-w-7xl mx-auto'>
+    <div className=' '>
       <div className='bg-gradient-to-r from-[#184892] via-[#2061C5] to-[#287AF8]'>
       <Header/>
       <Hero/>
