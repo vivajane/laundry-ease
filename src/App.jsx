@@ -1,14 +1,15 @@
 
 import { useEffect } from 'react'
 import './App.css'
-import About from './components/About'
-import Features from './components/Features'
+
 import Header from './components/Header'
-import Hero from './components/Hero'
-import Story from './components/Story';
+
 import AOS from 'aos';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import 'aos/dist/aos.css';
+import Home from './Pages/Home';
+import Footer from './Pages/Footer';
+
 
 function App() {
   useEffect(() => {
@@ -16,18 +17,16 @@ function App() {
   }, [])
   
 
-  return (
-    <div className=' '>
-      <div className='bg-gradient-to-r from-[#184892] via-[#2061C5] to-[#287AF8]'>
-      <Header/>
-      <Hero/>
-      </div>
-      <Features/>
-      <About/>
-      <Story/>
+  return <div>
+    <BrowserRouter>
+    <Header/>
+    <Routes>
+      <Route path='/' element = {<Home/>}/>
+    </Routes>
+    <Footer/>
 
-    </div>
-  )
+    </BrowserRouter>
+  </div>
 }
 
 export default App

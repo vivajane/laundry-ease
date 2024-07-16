@@ -10,11 +10,21 @@ export default {
         "bluee": "#0A2471",
         "gfirst": "#287AF8",
         "gsec": "#2061C5",
-        "gthird": "#184892"
+        "gthird": "#184892",
+        "customers": "#D6E6FE",
+        "join": "#091F5B",
+        "laundry": "#9FDFFA",
+        "services": "#D6E6FE",
+        "download": "#0F26A6",
+        "dark": "#D9D9D9",
+        "footer": "#9FDFFA"
 
       },
       textColor:{
-       "txtblue" :"#0F26A6"
+       "txtblue" :"#0F26A6",
+       "blac": "#000000",
+       "whit": "#FFFFFF",
+       
       },
       fontFamily:{
         "merriweather": "merriweather",
