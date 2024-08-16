@@ -9,6 +9,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import 'aos/dist/aos.css';
 import Home from './Pages/Home';
 import Footer from './Pages/Footer';
+import AboutPage from './Pages/AboutPage';
 
 
 function App() {
@@ -19,9 +20,10 @@ function App() {
 
   return <div>
     <BrowserRouter>
-    <Header/>
+    {/* <Header/> */}
     <Routes>
       <Route path='/' element = {<Home/>}/>
+      <Route path='aboutpage' element= {<AboutPage/>}/>
     </Routes>
     <Footer/>
 

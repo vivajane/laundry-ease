@@ -11,10 +11,12 @@ import Story from '../components/Story';
 import Customers from '../components/Customers';
 import Join from '../components/Join';
 import About from '../components/About';
+import Header from '../components/Header';
 
 const Home = () => {
   return (
     <div className=' '>
+      <Header/>
     <div className='bg-gradient-to-r from-[#184892] via-[#2061C5] to-[#287AF8]'>
     
     <Hero/>

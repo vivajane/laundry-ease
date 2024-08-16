@@ -17,19 +17,24 @@ export default {
         "services": "#D6E6FE",
         "download": "#0F26A6",
         "dark": "#D9D9D9",
-        "footer": "#9FDFFA"
+        "footer": "#9FDFFA",
+        "bgimageAbout": "#0A2471"
 
       },
       textColor:{
        "txtblue" :"#0F26A6",
        "blac": "#000000",
        "whit": "#FFFFFF",
+       "bluey": "#091F5B"
        
       },
       fontFamily:{
         "merriweather": "merriweather",
         "inter": "inter",
         "poppins": "poppins",
+      },
+      backgroundImage: {
+        "bgimgabt": "url('/bgimageabout.png')"
       }
       
     },

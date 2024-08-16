@@ -84,7 +84,7 @@ const Footer = () => {
               type="email"
               name="email"
               id="email"
-              placeholder="Enter your email address"
+              placeholder="  Enter your email address"
               className="bg-gray-300 rounded w-[100%] py-2"
             />
           </div>
