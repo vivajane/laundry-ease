@@ -4,11 +4,11 @@ import email from "../assets/email.png"
 import learn from "../assets/learn.png"
 const Section = ({title}) => {
     return (
-        <div>
+        <div >
             <div className="bg-bgimageAbout flex justify-center gap-10 items-center h-10 text-whit">
         <NavLink className="flex items-center gap-3">
-          <img className="h-4" src={email} alt="email" />
-          <p>Laundryease@gmail.com</p>
+          <a href="mailto:laundryease@gmail.com"><img className="h-4" src={email} alt="email" /></a>
+          <p className="md:block hidden">Laundryease@gmail.com</p>
         </NavLink>
         <NavLink className="flex items-center gap-3">
           <img className="h-4" src={partner} alt="email" />

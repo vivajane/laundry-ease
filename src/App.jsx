@@ -10,6 +10,8 @@ import 'aos/dist/aos.css';
 import Home from './Pages/Home';
 import Footer from './Pages/Footer';
 import AboutPage from './Pages/AboutPage';
+import ContactPage from './Pages/ContactPage';
+import Services from './Pages/Services';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
     <Routes>
       <Route path='/' element = {<Home/>}/>
       <Route path='aboutpage' element= {<AboutPage/>}/>
+      <Route path='contact' element={<ContactPage/>}/>
+      <Route path='services' element={<Services/>}/>
     </Routes>
     <Footer/>
 
