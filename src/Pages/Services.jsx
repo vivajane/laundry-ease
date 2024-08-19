@@ -6,6 +6,7 @@ import logooneee from "../assets/sewingg.png";
 import logooneeee from "../assets/washfold.png";
 import logooneeeee from "../assets/pickup.png";
 import logooneeeeee from "../assets/delivery.png";
+import Experience from "../components/Experience";
 
 const Services = () => {
   return (
@@ -21,13 +22,13 @@ const Services = () => {
         </p>
         <div className="mx-auto text-center">
           <div className="md:grid grid-cols-3 mt-14 gap-6">
-            <div className="">
+            <div className="flex flex-col justify-between">
               <img src={logoone} alt="one" />
               <div className="px-6 border-[1px] border-[#D9D9D9] pb-6">
                 <h1 className="bg-[#FFFFFF] rounded-bl-xl rounded-br-xl py-4 text-center font-poppins text-[16px] font-[600px]">
                   Ironing
                 </h1>
-                <p>
+                <p >
                   Say goodbye to wrinkles and creases with our expert ironing
                   services. Our team meticulously irons each item to perfection,
                   so you can look your best without the hassle of doing it
@@ -36,105 +37,117 @@ const Services = () => {
                   covered.
                 </p>
                 <div className="md:pb-1 pb-3 pt-2">
-                  <button className="text-white  bg-download font-poppins font-[600px] text-base py-2 rounded-2xl px-8">
+                  <button className="text-white  bg-download font-poppins font-[600px] text-base py-2 rounded px-8 w-full">
                     Schedule Pickup
                   </button>
                 </div>
               </div>
             </div>
-            <div className="">
+            <div className="flex flex-col justify-between my-8 md:my-0">
               <img src={logoonee} alt="two" />
-              <div></div>
-              <h1 className="bg-[#FFFFFF] rounded-bl-xl rounded-br-xl py-4 text-center font-poppins text-[16px] font-[600px]">
-                Laundry
-              </h1>
-              <p>
-                For delicate fabrics and special garments, our dry cleaning
-                service uses eco-friendly solvents to gently remove stains and
-                odors without damaging the fabric. From suits to evening gowns,
-                we ensure your clothes are returned in pristine condition.
-              </p>
-              <div className="md:pb-1 pb-3 pt-2">
-                <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
-                  Schedule Pickup
-                </button>
+              <div className="px-6 border-[1px] border-[#D9D9D9] pb-6 mt-8 md:mt-0">
+                <h1 className="py-6 text-center font-poppins text-[16px] font-[600px] mt-0">
+                  Laundry
+                </h1>
+                <p className="pb-6">
+                  For delicate fabrics and special garments, our dry cleaning
+                  service uses eco-friendly solvents to gently remove stains and
+                  odors without damaging the fabric. From suits to evening
+                  gowns, we ensure your clothes are returned in pristine
+                  condition.
+                </p>
+                <div className="md:pb-1 pb-3 pt-2">
+                  <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
+                    Schedule Pickup
+                  </button>
+                </div>
               </div>
             </div>
-            <div>
+            <div className="flex flex-col justify-between">
               <img src={logooneee} alt="three" />
-              <h1 className="bg-[#FFFFFF] rounded-bl-xl rounded-br-xl py-4 text-center font-poppins text-[16px] font-[600px]">
-                Sewing
-              </h1>
-              <p>
-                Our professional sewing service is designed to provide mending,
-                and alteration services that keep your clothes in perfect
-                condition. Whether it’s a minor repair or a major alteration,
-                Laundryease ensures your wardrobe always looks its fines
-              </p>
-              <div className="md:pb-1 pb-3 pt-2">
-                <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
-                  Schedule Pickup
-                </button>
+              <div className="px-6 border-[1px] border-[#D9D9D9] pb-6">
+                <h1 className="py-8 text-center font-poppins text-[16px] font-[600px]">
+                  Sewing
+                </h1>
+                <p>
+                  Our professional sewing service is designed to provide
+                  mending, and alteration services that keep your clothes in
+                  perfect condition. Whether it’s a minor repair or a major
+                  alteration, Laundryease ensures your wardrobe always looks its
+                  fines
+                </p>
+                <div className="md:pb-1 pb-3 pt-2">
+                  <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
+                    Schedule Pickup
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <div className="md:grid grid-cols-3 gap-4 mt-14">
-            <div>
+          <div className="md:grid grid-cols-3 gap-4 mt-14 py-8">
+            <div className="flex flex-col justify-between">
               <img src={logooneeee} alt="four" />
-              <h1 className="bg-[#FFFFFF] rounded-bl-xl rounded-br-xl py-4 text-center font-poppins text-[16px] font-[600px]">
-                Wash &Fold
-              </h1>
-              <p>
-                Our wash & fold service is perfect for your everyday laundry
-                needs. Simply drop off your clothes, and we'll handle the rest.
-                We wash, dry, and neatly fold your items, so they are ready to
-                wear when you pick them up.
-              </p>
-              <div className="md:pb-1 pb-3 pt-2">
-                <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
-                  Schedule Pickup
-                </button>
+              <div className="px-6 border-[1px] border-[#D9D9D9] pb-6">
+                <h1 className="pt-12 pb-4 text-center font-poppins text-[16px] font-[600px]">
+                  Wash &Fold
+                </h1>
+                <p>
+                  Our wash & fold service is perfect for your everyday laundry
+                  needs. Simply drop off your clothes, and we'll handle the
+                  rest. We wash, dry, and neatly fold your items, so they are
+                  ready to wear when you pick them up.
+                </p>
+                <div className="md:pb-1 pb-3 pt-2">
+                  <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
+                    Schedule Pickup
+                  </button>
+                </div>
               </div>
             </div>
-            <div className="my-6 md:my-0">
+            <div className="my-6 md:my-0 flex flex-col justify-between">
               <img src={logooneeeee} alt="five" />
-              <h1 className="bg-[#FFFFFF] rounded-bl-xl rounded-br-xl py-4 text-center font-poppins text-[16px] font-[600px]">
-                Pick Up
-              </h1>
-              <p>
-                Our professional laundry service is designed to take the hassle
-                out of your weekly chores, providing you with clean, fresh, and
-                perfectly folded clothes, so you can focus on what truly
-                matters.
-              </p>
-              <div className="md:pb-1 pb-3 pt-2">
-                <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
-                  Schedule Pickup
-                </button>
+              <div className="px-6 border-[1px] border-[#D9D9D9] pb-6">
+                <h1 className="pt-10 pb-6 text-center font-poppins text-[16px] font-[600px]">
+                  Pick Up
+                </h1> 
+                <p className="pb-10">
+                  Our professional laundry service is designed to take the
+                  hassle out of your weekly chores, providing you with clean,
+                  fresh, and perfectly folded clothes, so you can focus on what
+                  truly matters.
+                </p>
+                <div className="md:pb-1 pb-3 pt-2">
+                  <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
+                    Schedule Pickup
+                  </button>
+                </div>
               </div>
             </div>
-            <div>
+            <div className="flex flex-col justify-between">
               <img src={logooneeeeee} alt="six" />
-              <h1 className="bg-[#FFFFFF] rounded-bl-xl rounded-br-xl py-4 text-center font-poppins text-[16px] font-[600px]">
-                Delivery
-              </h1>
-              <p>
-                We understand that your time is valuable, which is why we offer
-                convenient pickup and delivery services. Simply schedule a time
-                that works for you, and our friendly team will collect your
-                laundry right from your doorstep. Once your clothes are clean
-                and fresh, we'll deliver them back to you at your convenience.
-                It’s that simple!
-              </p>
-              <div className="md:pb-1 pb-3 pt-2">
-                <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
-                  Schedule Pickup
-                </button>
+              <div className="px-6 border-[1px] border-[#D9D9D9] pb-6">
+                <h1 className="py-4 text-center font-poppins text-[16px] font-[600px]">
+                  Delivery
+                </h1>
+                <p>
+                  We understand that your time is valuable, which is why we
+                  offer convenient pickup and delivery services. Simply schedule
+                  a time that works for you, and our friendly team will collect
+                  your laundry right from your doorstep. Once your clothes are
+                  clean and fresh, we'll deliver them back to you at your
+                  convenience. It’s that simple!
+                </p>
+                <div className="md:pb-1 pb-3 pt-2">
+                  <button className="text-white  bg-download font-poppins font-[600px] text-base  py-2 rounded w-full">
+                    Schedule Pickup
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Experience/>
     </div>
   );
 };

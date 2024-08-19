@@ -8,6 +8,7 @@ import vision from "../assets/vision.png";
 import commitment from "../assets/commitment.png";
 import empower from "../assets/empower.png";
 import mark from "../assets/mark.png";
+import Experience from "../components/Experience";
 
 const AboutPage = () => {
   return (
@@ -147,49 +148,7 @@ const AboutPage = () => {
           </p>
         </div>
       </div>
-      <div className=" md:px-24 px-6 md:flex gap-24 py-20  bg-gradient-to-r from-[#184892] via-[#2061C5] to-[#287AF8] ">
-        <div className="md:w-[50%] ">
-          <h2 className="font-poppins text-white font-[400px] py-2 text-2xl md:pt-20">
-            Experience the convenience and reliability of LaundryEase today.
-          </h2>
-          <ul>
-            <li className="flex gap-3 items-center font-poppins text-base font-[400px]">
-              <img className="h-4" src={mark} alt="mark" />
-              <p className="py-2 text-white font-popinns font-[400px] text-base">
-                Experience the convenience and reliability of LaundryEase today.
-              </p>
-            </li>
-            <li className="flex gap-3 items-center font-poppins text-base font-[400px]">
-              <img className="h-4" src={mark} alt="mark" />
-              <p className="text-white font-popinns font-[400px] text-base">
-                Experience the convenience and reliability of LaundryEase today.
-              </p>
-            </li>
-            <li className="flex gap-3 items-center font-poppins text-base font-[400px]">
-              <img className="h-4" src={mark} alt="mark" />
-              <p className="py-2 text-white font-popinns font-[400px] text-base">
-                Experience the convenience and reliability of LaundryEase today.
-              </p>
-            </li>
-            <li className="flex gap-3 items-center font-poppins text-base font-[400px]">
-              <img className="h-4" src={mark} alt="mark" />
-              <p className="text-white font-popinns font-[400px] text-base">
-                Experience the convenience and reliability of LaundryEase today.
-              </p>
-            </li>
-            <li className="flex gap-3 items-center font-poppins text-base font-[400px]">
-              <img className="h-4" src={mark} alt="mark" />
-              <p className="py-2 text-white font-popinns font-[400px] text-base">
-                Experience the convenience and reliability of LaundryEase today.
-              </p>
-            </li>
-          </ul>
-        </div>
-        <img data-aos="slide-up"
-          data-aos-delay="200"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="600" className="mb-12 h-contain" src={iphones} alt="hanger" />
-      </div>
+      <Experience/>
     </div>
   );
 };

@@ -18,7 +18,7 @@ const Header = () => {
       <div className="bg-bgimageAbout flex justify-center gap-10 items-center h-10 text-whit">
         <NavLink className="flex items-center gap-3">
           <img className="h-4" src={email} alt="email" />
-          <p>Laundryease@gmail.com</p>
+          <p className="md:block hidden">Laundryease@gmail.com</p>
         </NavLink>
         <NavLink className="flex items-center gap-3">
           <img className="h-4" src={partner} alt="email" />
@@ -67,7 +67,7 @@ const Header = () => {
           }`}
         >
           <NavLink to="/" className="py-4">Home</NavLink>
-          <NavLink to ="about" className="py-4">About Us</NavLink>
+          <NavLink to ="aboutpage" className="py-4">About Us</NavLink>
           <NavLink to ="services" className="py-4">Our Services</NavLink>
           <NavLink to ="blog" className="py-4">Blog</NavLink>
           <NavLink to ="contact" className="py-4">Contact Us</NavLink>
