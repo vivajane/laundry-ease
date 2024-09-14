@@ -12,6 +12,7 @@ import Footer from './Pages/Footer';
 import AboutPage from './Pages/AboutPage';
 import ContactPage from './Pages/ContactPage';
 import Services from './Pages/Services';
+import Blog from './Pages/Blog';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Route path='aboutpage' element= {<AboutPage/>}/>
       <Route path='contact' element={<ContactPage/>}/>
       <Route path='services' element={<Services/>}/>
+      <Route path='blog' element={<Blog/>}/>
     </Routes>
     <Footer/>
 

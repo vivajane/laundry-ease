@@ -115,7 +115,7 @@ const Footer = () => {
 };
 
 export default Footer;
-<div className="">
+{/* <div className="">
   <p>
     LaundryEase Is an online aggregator. We do not participate in cooperations
     between our users: they create and perform all requests in our app on their
@@ -129,4 +129,4 @@ export default Footer;
     </ul>
     <p>© 2024 LaundryEase</p>
   </div>
-</div>;
+</div>; */}
