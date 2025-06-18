@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div className={`h-screen w-full fixed z-10 top-0 left-0 ${modal && "overflow-hidden" }`}>
       <div className="bg-bgimageAbout flex justify-center gap-10 items-center h-10 text-whit">
         <NavLink className="flex items-center gap-3">
           <img className="h-4" src={email} alt="email" />
