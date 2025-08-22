@@ -3,7 +3,7 @@ import lady from "../assets/woman.png"
 
 const Hero = () => {
   return (
-    <div className='md:px-24 px-6 md:flex gap-24 pt-10 '>
+    <div className='md:px-24 px-6 md:flex gap-24 pt-32 '>
         <div  className='md:mt-16'>
             <p className='font-merriweather md:text-3xl text-2xl md:leading-snug font-bold f text-white leading-[35px] '>Fresh Clothes, Fresh Start,<br /> Premium Laundry Services at Your Doorstep</p>
             <p className='md:leading-snug leading-[23px] font-merriweather font-normal text-[#FFFFFF] md:text-xl text-sm mt-4 '>Experience the Convenience and Quality of Our Top-Rated Laundry Solutions</p>
